@@ -145,13 +145,6 @@ report=classification_report(dfy_test,model_dt.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","w") as file:
-#     file.write("\t\t\t\t"+"Desicion Tree Classifier"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_d*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(2))+"\n\n")
 with open("Result_v1.md", "w") as file:
     file.write("# Decision Tree Classifier Results\n\n")
 
@@ -186,14 +179,6 @@ report=classification_report(dfy_test,model_rf.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"Random Forests"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_r*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(1))+"\n\n")
-
 with open("Result_v1.md","a") as file:
     file.write("# Random Forest Results\n\n")
 
@@ -258,14 +243,6 @@ report=classification_report(dfy_test,model_lr.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"Logistic Regression"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_l*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(2))+"\n\n")
-
 with open("Result_v1.md","a") as file:
     file.write("# Logistic Regression Results\n\n")
 
@@ -297,14 +274,6 @@ report=classification_report(dfy_test,model_sv.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"Support Vector Classifier"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_s*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(2))+"\n\n")
-
 with open("Result_v1.md","a") as file:
     file.write("# Support Vector Classifier Results\n\n")
 
@@ -335,14 +304,6 @@ report=classification_report(dfy_test,model_kn.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"K-Nearest Neighbor"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_k*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(2))+"\n\n")
-
 with open("Result_v1.md","a") as file:
     file.write("# K-Nearest Neighbor Results\n\n")
 
@@ -375,16 +336,6 @@ report=classification_report(dfy_test,model_nn.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"Neural Networks (MLP Classifier)"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_score_n*100,2))+"\n\n")
-#     file.write("Confusion Matrix"+"\n\n")
-#     file.writelines(str(cm_df)+"\n\n")
-#     file.write("Classification Report"+"\n\n")
-#     file.writelines(str(report_df.round(2))+"\n\n")
-
-
-
 with open("Result_v1.md","a") as file:
     file.write("# Neural Networks (MLP Classifier) Results\n\n")
 
@@ -421,13 +372,6 @@ report_df_rule = pd.DataFrame(report_rule).transpose()
 
 
 #                                       Reporting Scorees to File
-# with open("Result_v1.md","a") as file:
-#     file.write("\t\t\t\t"+"Rule-Based Decision"+"\n\n")
-#     file.write("Accuracy Score: "+str(round(acc_rule*100,2))+"\n\n")
-#     file.write("Confusion Matrix\n\n")
-#     file.writelines(str(pd.DataFrame(cm_rule)) + "\n\n")
-#     file.write("Classification Report\n\n")
-#     file.writelines(str(report_df_rule.round(2)) + "\n\n")
 
 with open("Result_v1.md","a") as file:
     file.write("# Rule-Based Decision Results\n\n")
