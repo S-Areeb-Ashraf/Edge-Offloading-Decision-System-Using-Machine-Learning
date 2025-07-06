@@ -145,7 +145,7 @@ report=classification_report(dfy_test,model_dt.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md", "w") as file:
+with open("Performance Result.md", "w") as file:
     file.write("# Decision Tree Classifier Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -179,7 +179,7 @@ report=classification_report(dfy_test,model_rf.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# Random Forest Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -243,7 +243,7 @@ report=classification_report(dfy_test,model_lr.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# Logistic Regression Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -274,7 +274,7 @@ report=classification_report(dfy_test,model_sv.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# Support Vector Classifier Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -304,7 +304,7 @@ report=classification_report(dfy_test,model_kn.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# K-Nearest Neighbor Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -336,7 +336,7 @@ report=classification_report(dfy_test,model_nn.predict(df_test),output_dict=True
 report_df=pd.DataFrame(report).transpose()
 
 #                                   Reporting Scores to File
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# Neural Networks (MLP Classifier) Results\n\n")
 
     file.write("## Accuracy Score\n")
@@ -373,7 +373,7 @@ report_df_rule = pd.DataFrame(report_rule).transpose()
 
 #                                       Reporting Scorees to File
 
-with open("Result_v1.md","a") as file:
+with open("Performance Result.md","a") as file:
     file.write("# Rule-Based Decision Results\n\n")
 
     file.write("## Accuracy Score\n")
