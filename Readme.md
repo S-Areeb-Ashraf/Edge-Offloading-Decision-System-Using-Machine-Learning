@@ -74,7 +74,7 @@ ML models tested:
 - Feature Importance
 
 ### Result:
-- Performance of each ML models with respect to the metrics were all reported in a file named as `Result_v1.txt`.
+- Performance of each ML models with respect to the metrics were all reported in a file named as `Performance Result.md`.
 - Bargraphs, Line graph were generated using **matplot lib**.
 
 ---
