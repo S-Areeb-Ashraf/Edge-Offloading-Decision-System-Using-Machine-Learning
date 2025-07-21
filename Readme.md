@@ -77,7 +77,14 @@ ML models tested:
 - Performance of each ML models with respect to the metrics were all reported in a file named as `Performance Result.md`.
 - Bargraphs, Line graph were generated using **matplot lib**.
 
-### Top Model Performance:
+---
+## Top Model Performance:
+![alt text](/pics/image_1.PNG)
+
+![alt text](/pics/image_2.PNG)
+
+![alt text](/pics/image_3.PNG)
+
 
 
 ---
