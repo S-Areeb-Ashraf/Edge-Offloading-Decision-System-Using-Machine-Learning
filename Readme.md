@@ -79,7 +79,7 @@ ML models tested:
 
 ---
 ## Top Model Performance:
-![alt text](/pics/image_1.PNG)
+![alt text](/Pics/image_1.PNG)
 
 ![alt text](/pics/image_2.PNG)
 
