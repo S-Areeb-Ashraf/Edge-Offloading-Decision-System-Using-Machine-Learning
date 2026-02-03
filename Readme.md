@@ -9,7 +9,7 @@ The decision depends on multiple system parameters such as CPU usage, battery le
 ---
 
 # Preview
-![alt text](/Pics/image_4.png)
+![alt text](/Pics/image_4.PNG)
 
 ---
 
@@ -111,5 +111,6 @@ ML models tested:
 - To run the project:
     - Your terminal must be inside the directory.
     - Then run file: **Decision Task.py**
+
 
 
