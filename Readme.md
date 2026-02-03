@@ -8,6 +8,11 @@ The decision depends on multiple system parameters such as CPU usage, battery le
 
 ---
 
+# Preview
+![alt text](/Pics/image_4.png)
+
+---
+
 ## Problem Statement
 
 Modern edge devices have limited resources, yet they need to run heavy tasks in real-time. Offloading these tasks to the cloud or edge server can help, but it must be done **intelligently** based on:
@@ -106,4 +111,5 @@ ML models tested:
 - To run the project:
     - Your terminal must be inside the directory.
     - Then run file: **Decision Task.py**
+
 
